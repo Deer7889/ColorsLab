@@ -1,5 +1,7 @@
 #include "mbed.h"       //add mbed library
 
+Serial pc(USBTX, USBRX);  //TX RX for terminal
+
 AnalogIn pot1(p19);     //define potentiometer 1 as pin 19 for analog input pot1
 AnalogIn pot2(p20);     //define potentiometer 2 as pin 20 for analog input pot2
 
